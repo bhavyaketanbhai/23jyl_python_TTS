@@ -1,1 +1,11 @@
+#include<stdio>
+#include<stdlib>
 
+int main(){
+    printf("\n Bhavya Nagar");
+    printf("\n 13th January 2002");
+    printf("\n 21");
+    printf("\n Rajkot");
+
+    return 0;
+}
