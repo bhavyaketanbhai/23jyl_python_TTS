@@ -1,0 +1,12 @@
+RDBMS	DBMS
+Data stored is in table format	Data stored is in the file format
+Multiple data elements are accessible together	Individual access of data elements
+Data in the form of a table are linked together	No connection between data
+Normalisation is not achievable	There is normalisation
+Support distributed database	No support for distributed database
+Data is stored in a large amount	Data stored is a small quantity
+Here, redundancy of data is reduced with the help of key and indexes in RDBMS	Data redundancy is common
+RDBMS supports multiple users	DBMS supports a single user
+It features multiple layers of security while handling data	There is only low security while handling data
+The software and hardware requirements are higher	The software and hardware requirements are low
+Oracle, SQL Server.	XML, Microsoft Access.
