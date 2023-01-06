@@ -1,0 +1,28 @@
+Object-oriented programming is a programming paradigm, or classification, that organizes a group of data attributes with functions or methods into a unit, known as an object. Typically, OOP languages are class-based, meaning a class defines the data attributes and functions as a blueprint for creating objects, which are instances of the class. One class may represent multiple independent objects, which interact with each other in complex ways. Popular class-based programming languages include Java, Python and C++.
+
+
+Class: A class is a data type that provides a framework for creating objects. You can define a class to create multiple objects without writing additional code.
+Object: In OOP, an object represents an instance, or creation, of a class. Objects define specific data, such as properties and behaviors, to implement code.
+Method: A method is a function that performs a task or action. For example, a method may return information about an object's data.
+Attribute: This structure stores information about an object and defines its state. You can define an attribute as part of the class.
+
+
+
+Encapsulation
+Encapsulation means to enclose data by containing it within an object. In OOP, encapsulation forms a barrier around data to protect it from the rest of the code. You can perform encapsulation by binding the data and its functions into a class. This action conceals the private details of a class and only exposes the functionality essential for interfacing with it. When a class doesn't allow direct access to its private data, it's well-encapsulated.
+
+
+Example
+When creating a class to represent a person, you may define private data, such as the person's Social Security Number. You can encapsulate this data as a private variable in the class, which means outside code can't access it. If you write a method in the person class to perform a bank transaction, the function could access the data variable as necessary. In this example, the person's private data is well-encapsulated within the class.
+
+
+Abstraction refers to using simplified classes, rather than complex implementation code, to access objects. Often, it's easier to design a program when you can separate the interface of a class from its implementation. In OOP, you can abstract the implementation details of a class and present a clean, easy-to-use interface through the class member functions. Abstraction helps isolate the impact of changes made to the code so if an error occurs, the change only affects the implementation details of a class and not the outside code.
+
+
+Most object-oriented languages support inheritance, which means a new class automatically inhabits the same properties and functionalities as its parent class. Inheritance allows you to organize classes into hierarchies, where a class might have one or more parent or child classes. If a class has a parent class, it means the class has inherited the properties of the parent. The child class can also modify or extend the behavior of its parent class. Inheritance allows you to reuse code without redefining the functions of a child class.
+
+
+Polymorphism refers to creating objects with shared behaviors. In OOP, polymorphism allows for the uniform treatment of classes in a hierarchy. When you write code for objects at the root of the hierarchy, any objects created by a child class within the hierarchy have the same functions. Depending on the type of object, it may execute different behaviors.
+
+
+
