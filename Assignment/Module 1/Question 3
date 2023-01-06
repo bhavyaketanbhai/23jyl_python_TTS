@@ -1,0 +1,102 @@
+3) explain sdlc and each of sdlc phases
+A)An SDLC (software development life cycle) is a big-picture breakdown of all the steps involved in software creation (planning, coding, testing, deploying, etc.). Companies define custom SDLCs to create a predictable, iterative framework that guides the team through all major stages of development.
+
+The character and the exact number of phases in an SDLC vary between businesses and projects. The most common models are variations on the following steps:
+
+Requirement analysis.
+In-depth planning.
+Product design.
+Coding.
+Testing.
+Deployment.
+Post-production maintenance.
+
+Requirements Analysis
+The first step of any SDLC is to define the project's requirements. Some critical questions during this stage are:
+
+What is the goal of the new project?
+What is the business hoping to get from the product?
+Is the team going to write code from scratch, or are we upgrading an existing system?
+Do we have any hard deadlines?
+Do we have the necessary knowledge in-house, or will we have to outsource some part(s) of the project?
+This stage requires a combined effort of business analytics, operations, leadership, development, and security teams. In some use cases, asking end users for input is also a valuable source of info.
+
+All the data gathered in this stage goes into a Software Requirement Specification (SRS) document. An SRS file includes all the software, hardware, security, and network specifications for the upcoming product, but the file also contains info concerning: 
+
+Resource allocation.
+Capacity planning.
+Project scheduling.
+Cost estimation.
+Provisioning.
+
+
+Feasibility Study
+Senior business analysts perform a feasibility study to determine the software's viability. The usual approach is to focus primarily on these five factors:
+
+Budget constraints.
+Legal implications.
+Operational requirements.
+Available in-house skills.
+The required project timeframe.
+Analysts add the findings of this phase to the existing SRS document, after which a team of decision-makers reviews the report to approve:
+
+Project plans and direction.
+Estimated costs.
+Projected schedules.
+The necessary resources.
+The higher management either signs off on the project or asks the team to go back a step in the SDLC and come up with a new suggestion.
+
+The output of this step: An expanded SRS document approved by higher management.
+
+Design Plan
+Once there is an approved project direction, the team starts creating a design plan that explains all major aspects of the new product, including its:
+
+Architecture (programming language, databases, interfaces, operating system, pre-made templates, APIs, etc.).
+Features list.
+Infrastructure requirements.
+UI design.
+Necessary security measures (e.g., SSL encryption, password protection, recommended database migrations, etc.).
+The team gathers this info in the Design Document Specification (DDS). A stakeholder reviews the DDS and approves a direction based on the following factors:
+
+Design modularity.
+Risk assessment.
+Product robustness.
+Time constraints.
+Some companies decide to create a prototype during this SDLC stage. While time-consuming, prototyping is much less expensive than making radical changes after the development phase.
+
+The output of this step: A detailed DDS that lists all the info developers require to code the product.
+
+Software Development
+The development team gets familiar with the DDS and starts working on the code. Typically, this step is the most time-consuming phase of SDLC, so we recommend using agile methodologies to speed up coding.
+
+This phase results in operational software that meets all the requirements listed in the SRS and DDS. While the code still awaits advanced testing, the team should already put the product through basic tests (such as static code analysis and code reviews for multiple device types).
+
+The output of this step: Source code of a testable, fully functional software.
+
+In-Depth Software Testing
+The software that comes out of the previous SDLC phase now goes through extensive testing. Companies have a wide variety of testing methods to evaluate the new product, such as:
+
+Code quality testing.
+Unit testing (functional tests).
+Integration testing.
+Performance testing.
+Security testing.
+Acceptance testing.
+Nonfunctional testing.
+Most teams rely on automated tests to speed up this phase, but some manual examinations are also valuable (penetration tests are a good example).
+
+If the team discovers a defect, the code goes back a step in its life cycle, and developers create a new, flaw-free version of the software. The testing stage ends when the product is stable, free of bugs, and up to quality standards defined in the previous phases.
+
+The output of this step: A thoroughly tested version of the product ready for a production environment.
+
+Software Deployment
+The product leaves the testing phase and is ready to go into production. Some projects require the team to write user manuals or create instructional videos before the software becomes available to end users.
+
+Ideally, the deployment phase happens automatically (typically as a part of CI/CD). Companies with lower maturity or in some highly regulated industries may require manual approvals during this SDLC stage.
+
+Most companies deploy new software to a small percentage of users (10 to 15%) and slowly phase it into the rest of the customer base. Gradual introduction means you limit the impact on the UX if there's an overlooked issue with the product.
+
+The output of this step: A fully functional and tested product that's available to end users.
+
+Product Maintenance and Enhancement
+Every shipped piece of software requires periodic reviews and updates based on user feedback. The most common activities during this stage are:
