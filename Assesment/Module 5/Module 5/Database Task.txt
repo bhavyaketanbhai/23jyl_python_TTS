@@ -1,0 +1,16 @@
+1)SELECT pro_name, pro_price 
+     FROM computer
+     WHERE pro_price >= 250
+     ORDER BY pro_price DESC, pro_name;
+
+2)SELECT pro_name, pro_price
+   FROM computer
+   WHERE pro_price = (SELECT MIN(pro_price) FROM computer);
+
+
+3)SELECT AVG(pro_price), pro_com
+    FROM computer
+   GROUP BY pro_com;
+
+4)SELECT AVG(pro_price) FROM computer 
+  WHERE pro_com=16;
