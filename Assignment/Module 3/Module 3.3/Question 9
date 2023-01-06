@@ -1,0 +1,32 @@
+#include<stdio.h>
+struct data
+{
+	char name[10];
+	char adrs[10];
+	int age;
+};
+
+void main()
+{
+struct data ob[10];
+int i;
+	for(i = 0;i < 5;i++)
+	{
+		printf("Employ no: %d \n",i+1);
+		printf("Employ name:");
+		scanf("%s",&ob[i].name);
+		printf("Employ address:");
+		scanf("%s",&ob[i].adrs);
+		printf("Employ Age");
+		scanf("%s",&ob[i].age);
+	}
+	printf("\tEmploy no \tName \tAddress \tAge\n");
+	for(i = 0;i < 5;i++)
+	{
+		printf("\t%d",i+1);
+		printf("\t\t%s",ob[i].name);
+		printf("\t%s",&ob[i].adrs);
+		printf("\t\t%s\n",&ob[i].age);
+	}
+	
+}

@@ -1,0 +1,47 @@
+#include<stdio.h>
+
+int main(){
+    int choice;
+    printf("\nPress 1 for monday:");
+    printf("\nPress 2 for tuesday:");
+    printf("\nPress 3 for wednesday:");
+    printf("\nPress 4 for thursday:");
+    printf("\nPress 5 for friday:");
+    printf("\nPress 6 for saturday:");
+    printf("\nPress 7 for sunday:");
+    printf("\nEnter your choice:");
+    scanf("%d",&choice);
+    switch(choice){
+        case 1:
+        printf("Monday");
+        break;
+
+        case 2:
+        printf("Tuesday");
+        break;
+
+        case 3:
+        printf("Wednesday");
+        break;
+
+        case 4:
+        printf("Thursday");
+        break;
+
+        case 5:
+        printf("Friday");
+        break;
+
+        case 6:
+        printf("Saturday");
+        break;
+
+        case 7:
+        printf("Sunday");
+        break;
+
+        defaut:
+          printf("Invalid Input...");
+    }
+    return 0; 
+}

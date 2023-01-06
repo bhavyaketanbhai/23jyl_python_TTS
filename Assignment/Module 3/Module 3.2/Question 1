@@ -1,0 +1,44 @@
+#include<stdio>
+#include<stdlib>
+
+int main(){
+    int number1,number2,choice;
+    int result;
+
+    printf("\n Enter 1 for Addition:");
+    printf("\n Enter 2 for Multiplication:");
+    printf("\n Enter 3 for Subtraction:");
+    printf("\n Enter 4 for Division:");
+
+    if(choice>4){
+        printf("Enter valid Input!!!");
+    }
+    else{
+        printf("Enter Two Variables: ");
+        scanf("%d%d",&number1,number2);
+    }
+    if{
+        result=number1+number2;
+        printf("The Result Of Addition is: %d",result);
+    }
+    else if{
+        result=number1*number2;
+        printf("The Result Of Multiplicationn is: %d",result);
+    }
+    else if{
+        result=number1-number2;
+        printf("The Result Of Subtraction is: %d",result);
+    }
+    else if{
+        if(choice==4){
+            if(choice==0){
+                printf("Can't divide by!!!");
+            }
+            else{
+                result=number1/number2;
+                printf("The Result Of Division is: %d",result);
+            }
+        }
+    }
+    return 0;
+}

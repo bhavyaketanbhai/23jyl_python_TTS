@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+class construct
+{
+    public:
+    
+    int a,b,no;
+    construct()
+    {
+        
+         cout<<"\t\tSelect option\n";
+        cout<<"1.Addition \n2.Subtraction \n3.Multiplication\n4.Division\n";
+        cin>>no;
+        cout<<"Enter first value : ";
+        cin>>a;                                    
+        cout<<"Enter second value : ";
+        cin>>b;
+        switch(no)
+        {
+            case 1:
+            {
+                a += b;
+                cout<<"Addition is :"<<a;
+                break;
+            }
+            case 2:
+            {
+                a -= b;
+                cout<<"Subtraction is : "<<a;
+            }
+            case 3:
+            {
+                a *= b;
+                cout<<"multiplication is : "<<a;
+            }
+            case 4:
+            {
+                a /= b;
+                cout<<"division is :"<<a;        
+            }
+            default :
+            cout<<"Invalid choice";
+        }
+    
+    }  
+    };
+int main()
+{
+    construct obj;
+}
